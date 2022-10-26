@@ -2,8 +2,8 @@
 import { ServerStyleSheet } from 'styled-components'
 export default class MyDocument extends Document {
   static async getInitialProps(
-    ctx: DocumentContext
-  ): Promise<DocumentInitialProps> {
+    ctx
+  ){
     const sheet = new ServerStyleSheet()
     const originalRenderPage = ctx.renderPage
 
