@@ -2,7 +2,13 @@ import styled from 'styled-components'
 
 export const Text1 = styled.p`
     font-size: 1.8vw;
-    color: #808080;;
+    color: #808080;
+`
+
+export const Text2 = styled.p`
+    font-size: 1.8vw;
+    font-weight: bold;
+    color: #404040;
 `
 
 export const Header1 = styled.h1`

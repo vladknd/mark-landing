@@ -15,6 +15,10 @@ export const HeaderContainer = styled.div`
 
     width: 100%;
     height: 10vh;
+
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    /* opacity: 0.3; */
 `
 
  export const LogoContainer = styled.div`
