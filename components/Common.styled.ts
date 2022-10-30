@@ -1,18 +1,26 @@
 import styled from 'styled-components'
 
+interface IText {
+  size?: string;
+}
 export const Text1 = styled.p`
-    font-size: 1.8vw;
-    color: #808080;
+  font-size: ${(props:IText) => props.size ||"1.8vw"};
+  color: #808080;
 `
-
 export const Text2 = styled.p`
-    font-size: 1.8vw;
-    font-weight: bold;
-    color: #404040;
+  font-size: ${(props:IText) => props.size ||"1.8vw"};
+  font-weight: bold;
+  color: #404040;
+`
+export const Text3 = styled.p`
+  font-size: ${(props:IText) => props.size ||"1.8vw"};
+  font-weight: bold;
+  color: white;
 `
 
 export const Header1 = styled.h1`
   margin: 0%;
+  min-height: 8vh;
     /* Fallback: Set a background color. */
   background-color: red;
   /* Create the gradient. */
@@ -39,6 +47,11 @@ export const Header1 = styled.h1`
   -moz-text-fill-color: transparent;
 `
 
+interface IButton {
+  width?: string;
+  height?: string;
+  br?: string;
+}
 export const Button1 = styled.button`
     
     color: white;
@@ -52,13 +65,30 @@ export const Button1 = styled.button`
     border-radius: 1vw;
 
     font-size: 1.1vw;
+
+    /* width: ${(props: IButton) => props.width || "10vw"}; */
+    /* height: ${(props: IButton) => props.height || "4vh"}; */
+`
+export const Button2 = styled.button`
+  color: black;
+  background: white;
+
+  /* width: ${(props: IButton) => props.width || "10vw"}; */
+  /* height: ${(props: IButton) => props.height || "4vh"}; */
+
+  border: none;
+  &:hover {
+      cursor: pointer;
+  }
+  /* border-radius: 1vw; */
+  /* border-radius: ${(props: IButton) => props.br || "1vw"}; */
+  font-size: 1.1vw;
 `
 
 export const VBar = styled.div`
   margin: 4%;
   width: 1px;
   height: 4vh;
-
+  border-radius: ${(props: IButton) => props.br || "1vw"};
   background-color: black;
 `
-
