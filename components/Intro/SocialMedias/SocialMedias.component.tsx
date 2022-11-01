@@ -24,11 +24,11 @@ const SocialMediasComponent = () => {
   return (
     <SocialMediasContainer>
       <VBar/>
-      <MediaComponent to="" img="/medium.svg"/>
-      <MediaComponent to="" img="/discord.svg"/>
-      <MediaComponent to="" img="/linkedin.svg"/>
-      <MediaComponent to="" img="/behance.svg"/>
-      <MediaComponent to="" img="/twitter.svg"/>
+      <MediaComponent to="https://medium.com/@metamark" img="/medium.svg"/>
+      <MediaComponent to="https://discord.gg/vRgHbM9rZj" img="/discord.svg"/>
+      <MediaComponent to="https://www.linkedin.com/in/markknd/" img="/linkedin.svg"/>
+      <MediaComponent to="https://www.behance.net/metamark" img="/behance.svg"/>
+      <MediaComponent to="https://twitter.com/MarkKnd" img="/twitter.svg"/>
       <VBar/>
     </SocialMediasContainer>
   )

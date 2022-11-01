@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { Header1, Text1 } from '../Common.styled'
+import { Header1, Text1, Text2 } from '../Common.styled'
 import { 
   ButtonsContainer, 
   ContentContainer, 
@@ -17,7 +17,7 @@ interface IIam {
   imgL: string;
   imgR: string;
 }
-const WebDesignerComponent = (props: IIam) => {
+const IamComponent = (props: IIam) => {
   return (
     <IamContainer>
       <PsImage>
@@ -27,7 +27,7 @@ const WebDesignerComponent = (props: IIam) => {
       </PsImage>
       <ContentContainer>
         <Text1>
-          I AM
+          i am
         </Text1>
         <Header1>
           {props.who}
@@ -52,5 +52,5 @@ const WebDesignerComponent = (props: IIam) => {
     </IamContainer>
   )
 }
-export default WebDesignerComponent
+export default IamComponent
 

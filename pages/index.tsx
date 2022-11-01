@@ -10,7 +10,7 @@ const Home = () => {
     <LayoutComponent>
       <IntroComponent/>
       <IamComponent 
-        who="Web-Designer." 
+        who="UI/UX Designer." 
         text="I've worked on more than ten completely finished 
               projects and have more than two years of expertise 
               in UX/UI design. All of my clients are satisfied 
@@ -31,10 +31,9 @@ const Home = () => {
       <ArticlesHorizontalComponent/>
       <IamComponent 
         who="Developer." 
-        text="I’ve developed a lot of cool desktop apps and 
-              unique websites myself. I have a lot of options, like 
-              using Wordpress to create a website or React. 
-              Pick what best suits you!"
+        text="I developed a lot of cool projects and have 
+        worked in many spheres. Such as Web3, IT-related, E-Commerce, Software Development and many others.
+        I’m always excited to work for a new project!"
         imgL="/css.svg"
         imgR="/html.svg"
       />

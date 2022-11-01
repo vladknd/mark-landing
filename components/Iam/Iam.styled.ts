@@ -8,6 +8,7 @@ export const IamContainer = styled.div`
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
 
     /* width: 20vw; */
     /* height: 100vh; */
