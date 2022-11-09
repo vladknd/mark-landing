@@ -6,19 +6,23 @@ interface IText {
 export const Text1 = styled.p`
   font-size: ${(props:IText) => props.size ||"1.8vw"};
   color: #808080;
+  font-family: "Poppins-Semibold", sans-serif;
 `
 export const Text2 = styled.p`
   font-size: ${(props:IText) => props.size ||"1.8vw"};
   font-weight: bold;
   color: #404040;
+  font-family: "Poppins-Medium", sans-serif;
 `
 export const Text3 = styled.p`
   font-size: ${(props:IText) => props.size ||"1.8vw"};
   font-weight: bold;
   color: white;
+  font-family: "Poppins-Medium", sans-serif;
 `
 
 export const Header1 = styled.h1`
+  font-family: "Poppins-Semibold", sans-serif;
   margin: 0%;
   min-height: 8vh;
     /* Fallback: Set a background color. */
@@ -27,10 +31,10 @@ export const Header1 = styled.h1`
   background-image: 
     linear-gradient(
         133.19deg, 
-        #FFD371 -2.04%, 
-        #FF8FAC 10.17%, 
-        #95D7FF 27.36%, 
-        #48FFFE 123.1%
+        #FFD371 0%, 
+        #FF8FAC 25%, 
+        #95D7FF 50%, 
+        #48FFFE 100%
     );
   ;
   

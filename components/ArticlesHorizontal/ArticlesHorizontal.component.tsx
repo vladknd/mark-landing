@@ -7,21 +7,21 @@ const ArticlesHorizontalComponent = () => {
     <ArticlesHorizontalContainer>
       <ArticleCardComponent 
         name="9 VSCode Extensions You Definitely Need As A Developer" 
-        img="/article1.png"
+        img="/article5.png"
         text="It would help if you had these extensions to 
               improve your workflow, reduce the number of 
               bugs"
       />
       <ArticleCardComponent 
-        name="9 VSCode Extensions You Definitely Need As A Developer" 
+        name="Why Copywriting is The Most Important Skill Right Now" 
         img="/article2.png"
         text="It would help if you had these extensions to 
               improve your workflow, reduce the number of 
               bugs"
       />
       <ArticleCardComponent 
-        name="9 VSCode Extensions You Definitely Need As A Developer" 
-        img="/article3.png"
+        name="Boredom is The Key to Productivity And Success" 
+        img="/article4.png"
         text="It would help if you had these extensions to 
               improve your workflow, reduce the number of 
               bugs"
